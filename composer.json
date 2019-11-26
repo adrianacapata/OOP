@@ -1,0 +1,21 @@
+{
+    "name": "adriana/oop",
+    "description": "basic OOP",
+    "type": "project",
+    "require": {
+        "php": ">=7.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adriana Capata",
+            "email": "adriana@a2.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "OOP\\": "src/"
+        }
+    }
+}
